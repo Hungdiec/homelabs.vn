@@ -1,0 +1,2 @@
+[console_scripts]
+ddns_update = ddns.ddns_update:main

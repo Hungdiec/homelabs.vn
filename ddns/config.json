@@ -1,0 +1,27 @@
+{
+    "log_level": "ERROR",
+    "mysql": {
+        "host": "192.168.10.216",
+        "port": 3306,
+        "user": "npm",
+        "password": "npm",
+        "database": "npm"
+    },
+    "cloudflare": {
+        "dns_record_type": "A",
+        "cf_comment": "Managed by DDNS script",
+        "domains": [
+            {
+                "name": "hung99.com",
+                "cf_token": "UTo_hxQzxCiLRthRbN48RaFQwV3o1C6gp8BXEXGa",
+                "zone_id": "d1ef066eef4d295c27a78fcf30e3bc7c"
+            }
+        ]
+    },
+    "paths": {
+        "ip_file_path": "current_ip.txt",
+        "log_file": "ddns_debug.log",
+        "lock_file": "/tmp/ddns_update.lock",
+        "last_hosts_file": "last_hosts.txt"
+    }
+}

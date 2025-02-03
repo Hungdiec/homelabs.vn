@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: ddns_automate
+Version: 1.0.0
+Summary: A DDNS automation script using Cloudflare
+Author: Your Name
+Requires-Dist: requests
+Requires-Dist: pymysql
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary

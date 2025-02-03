@@ -1,0 +1,10 @@
+README.md
+setup.py
+ddns/__init__.py
+ddns/ddns_update.py
+ddns_automate.egg-info/PKG-INFO
+ddns_automate.egg-info/SOURCES.txt
+ddns_automate.egg-info/dependency_links.txt
+ddns_automate.egg-info/entry_points.txt
+ddns_automate.egg-info/requires.txt
+ddns_automate.egg-info/top_level.txt

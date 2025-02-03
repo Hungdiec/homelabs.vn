@@ -1,0 +1,16 @@
+[Unit]
+Description=DDNS Synchronization Service
+After=network.target
+
+[Service]
+WorkingDirectory=%REPO_ROOT%
+ExecStart=/usr/local/bin/ddns_monitor.sh
+Restart=always
+User=%SERVICE_USER%
+Group=%SERVICE_GROUP%
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=ddns_monitor
+
+[Install]
+WantedBy=multi-user.target

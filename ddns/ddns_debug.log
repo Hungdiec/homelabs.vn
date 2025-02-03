@@ -1,0 +1,498 @@
+2025-02-03 06:04:25 [ERROR]: Failed to perform request for https://api.cloudflare.com/client/v4/zones/hung/dns_records?type=A&per_page=100 after 3 attempts.
+2025-02-03 06:04:25 [ERROR]: Failed to fetch DNS records for hung99.com: None
+2025-02-03 06:04:46 [ERROR]: Failed to perform request for https://api.cloudflare.com/client/v4/zones/hung/dns_records?type=A&per_page=100 after 3 attempts.
+2025-02-03 06:04:46 [ERROR]: Failed to fetch DNS records for hung99.com: None
+2025-02-03 06:09:24 [INFO]: Script is already running. Exiting.
+2025-02-03 06:09:35 [INFO]: Script is already running. Exiting.
+2025-02-03 06:09:45 [INFO]: Script is already running. Exiting.
+2025-02-03 06:09:55 [INFO]: Script is already running. Exiting.
+2025-02-03 06:10:05 [INFO]: Script is already running. Exiting.
+2025-02-03 06:10:15 [INFO]: Script is already running. Exiting.
+2025-02-03 06:10:23 [INFO]: Script is already running. Exiting.
+2025-02-03 06:10:33 [INFO]: Script is already running. Exiting.
+2025-02-03 06:10:43 [INFO]: Script is already running. Exiting.
+2025-02-03 06:10:54 [INFO]: Script is already running. Exiting.
+2025-02-03 06:11:08 [INFO]: Script is already running. Exiting.
+2025-02-03 06:11:18 [INFO]: Script is already running. Exiting.
+2025-02-03 06:11:28 [INFO]: Script is already running. Exiting.
+2025-02-03 06:11:39 [INFO]: Script is already running. Exiting.
+2025-02-03 06:13:07 [DEBUG]: Starting new HTTP connection (1): ipv4.icanhazip.com:80
+2025-02-03 06:13:07 [DEBUG]: http://ipv4.icanhazip.com:80 "GET / HTTP/1.1" 200 13
+2025-02-03 06:13:07 [DEBUG]: HTTP GET Request to http://ipv4.icanhazip.com
+2025-02-03 06:13:07 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:07 [DEBUG]: Response Body: 27.79.147.69
+2025-02-03 06:13:07 [INFO]: Current IP: 27.79.147.69
+2025-02-03 06:13:07 [INFO]: Current proxy domains:
+2025-02-03 06:13:07 [INFO]:  - ghost.hung99.com
+2025-02-03 06:13:07 [INFO]:  - qbit.hung99.com
+2025-02-03 06:13:07 [INFO]:  - port.hung99.com
+2025-02-03 06:13:07 [INFO]:  - speed.hung99.com
+2025-02-03 06:13:07 [INFO]:  - proxy.hung99.com
+2025-02-03 06:13:07 [INFO]:  - homelabs.vn
+2025-02-03 06:13:07 [INFO]:  - shell.hung99.com
+2025-02-03 06:13:07 [INFO]:  - wiki.homelabs.vn
+2025-02-03 06:13:07 [INFO]:  - shop.hung99.com
+2025-02-03 06:13:07 [INFO]:  - up.hung99.com
+2025-02-03 06:13:07 [INFO]:  - dash.hung99.com
+2025-02-03 06:13:07 [INFO]:  - plex.hung99.com
+2025-02-03 06:13:07 [INFO]:  - ha.hung99.com
+2025-02-03 06:13:07 [INFO]:  - ssh.hung99.com
+2025-02-03 06:13:07 [INFO]:  - proxmox.hung99.com
+2025-02-03 06:13:07 [INFO]: Processing domain: hung99.com (Zone: d1ef066eef4d295c27a78fcf30e3bc7c)
+2025-02-03 06:13:07 [DEBUG]: HTTP GET Request to https://api.cloudflare.com/client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100
+2025-02-03 06:13:07 [DEBUG]: Headers: {'Authorization': 'Bearer UTo_hxQzxCiLRthRbN48RaFQwV3o1C6gp8BXEXGa', 'Content-Type': 'application/json'}
+2025-02-03 06:13:07 [DEBUG]: Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-02-03 06:13:08 [DEBUG]: https://api.cloudflare.com:443 "GET /client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100 HTTP/1.1" 200 None
+2025-02-03 06:13:08 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:08 [DEBUG]: Response Body: {"result":[{"id":"971e1c4e3c805b4ff50b0a0e55070eca","name":"dash.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.251192Z","modified_on":"2025-01-31T15:48:30.608918Z","comment_modified_on":"2025-01-27T15:10:26.051202Z"},{"id":"7ed2cc4a0365070d9c5b04d1a425c87a","name":"ghost.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-31T16:03:46.327468Z","modified_on":"2025-01-31T16:03:46.327468Z","comment_modified_on":"2025-01-31T16:03:46.327468Z"},{"id":"18015956a0e125c54863bea3446ac5cf","name":"ha.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.807809Z","modified_on":"2025-01-31T15:48:31.899195Z","comment_modified_on":"2025-01-27T15:10:56.61626Z"},{"id":"dc9a90be6060cdc2211e6e8ff862fc01","name":"plex.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:27.068921Z","modified_on":"2025-01-31T15:48:33.230025Z","comment_modified_on":"2025-01-27T15:11:00.825312Z"},{"id":"0b9c32cea604aad3fb00f023593a177a","name":"port.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:20.85014Z","modified_on":"2025-01-31T15:48:28.576165Z","comment_modified_on":"2025-01-27T15:11:06.642568Z"},{"id":"1b865c7b6d3c0187d5e413d3d72f0a21","name":"proxmox.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:21.339318Z","modified_on":"2025-01-31T15:48:28.980731Z","comment_modified_on":"2025-01-27T15:11:11.499378Z"},{"id":"d83ee9982d7c59e473fa1624d3c9c344","name":"proxy.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.38025Z","modified_on":"2025-01-31T15:48:31.455242Z","comment_modified_on":"2025-01-27T15:11:16.961763Z"},{"id":"a976213483ce84fa9f67e10e1bb38dc4","name":"qbit.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.21985Z","modified_on":"2025-01-31T15:48:32.317229Z","comment_modified_on":"2025-01-27T15:11:22.249742Z"},{"id":"2b7b9d71d609cf06aca0141cd2d1d3cf","name":"shell.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:22.244125Z","modified_on":"2025-01-31T15:48:29.381132Z","comment_modified_on":"2025-01-27T15:11:26.866827Z"},{"id":"9481bcd54b18ad394d8a92ec6240a3cd","name":"shop.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.178234Z","modified_on":"2025-01-31T15:48:29.769492Z","comment_modified_on":"2025-01-27T15:11:32.079564Z"},{"id":"003cc5361dc74fc3f77612cd9f49de42","name":"speed.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.656994Z","modified_on":"2025-01-31T15:48:32.779929Z","comment_modified_on":"2025-01-27T15:11:37.808331Z"},{"id":"65d9904f2af0d6153e810637308bcb5a","name":"ssh.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.830367Z","modified_on":"2025-01-31T15:48:30.194624Z","comment_modified_on":"2025-01-27T15:11:42.58598Z"},{"id":"d2fb2f493d1af3a90599c87d86f83bb8","name":"up.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.946049Z","modified_on":"2025-01-31T15:48:31.035746Z","comment_modified_on":"2025-01-27T15:11:48.139716Z"}],"success":true,"errors":[],"messages":[],"result_info":{"page":1,"per_page":100,"count":13,"total_count":13,"total_pages":1}}
+2025-02-03 06:13:08 [DEBUG]: Existing DNS records for hung99.com:
+2025-02-03 06:13:08 [DEBUG]:  - dash.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - ghost.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - ha.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - plex.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - port.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - proxmox.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - proxy.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - qbit.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - shell.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - shop.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - speed.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - ssh.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - up.hung99.com: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: Checking if dash.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for dash.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if ghost.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for ghost.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if ha.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for ha.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if plex.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for plex.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if port.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for port.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if proxmox.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for proxmox.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if proxy.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for proxy.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if qbit.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for qbit.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if shell.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for shell.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if shop.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for shop.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if speed.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for speed.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if ssh.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for ssh.hung99.com. IPs match.
+2025-02-03 06:13:08 [DEBUG]: Checking if up.hung99.com needs update:
+2025-02-03 06:13:08 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:08 [DEBUG]: No update needed for up.hung99.com. IPs match.
+2025-02-03 06:13:08 [INFO]: Update complete. Cleaning up.
+2025-02-03 06:13:18 [DEBUG]: Starting new HTTP connection (1): ipv4.icanhazip.com:80
+2025-02-03 06:13:18 [DEBUG]: http://ipv4.icanhazip.com:80 "GET / HTTP/1.1" 200 13
+2025-02-03 06:13:18 [DEBUG]: HTTP GET Request to http://ipv4.icanhazip.com
+2025-02-03 06:13:18 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:18 [DEBUG]: Response Body: 27.79.147.69
+2025-02-03 06:13:18 [INFO]: Current IP: 27.79.147.69
+2025-02-03 06:13:18 [INFO]: Current proxy domains:
+2025-02-03 06:13:18 [INFO]:  - port.hung99.com
+2025-02-03 06:13:18 [INFO]:  - speed.hung99.com
+2025-02-03 06:13:18 [INFO]:  - shop.hung99.com
+2025-02-03 06:13:18 [INFO]:  - shell.hung99.com
+2025-02-03 06:13:18 [INFO]:  - ghost.hung99.com
+2025-02-03 06:13:18 [INFO]:  - proxy.hung99.com
+2025-02-03 06:13:18 [INFO]:  - plex.hung99.com
+2025-02-03 06:13:18 [INFO]:  - homelabs.vn
+2025-02-03 06:13:18 [INFO]:  - qbit.hung99.com
+2025-02-03 06:13:18 [INFO]:  - proxmox.hung99.com
+2025-02-03 06:13:18 [INFO]:  - ha.hung99.com
+2025-02-03 06:13:18 [INFO]:  - up.hung99.com
+2025-02-03 06:13:18 [INFO]:  - wiki.homelabs.vn
+2025-02-03 06:13:18 [INFO]:  - ssh.hung99.com
+2025-02-03 06:13:18 [INFO]:  - dash.hung99.com
+2025-02-03 06:13:18 [INFO]: Processing domain: hung99.com (Zone: d1ef066eef4d295c27a78fcf30e3bc7c)
+2025-02-03 06:13:18 [DEBUG]: HTTP GET Request to https://api.cloudflare.com/client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100
+2025-02-03 06:13:18 [DEBUG]: Headers: {'Authorization': 'Bearer UTo_hxQzxCiLRthRbN48RaFQwV3o1C6gp8BXEXGa', 'Content-Type': 'application/json'}
+2025-02-03 06:13:18 [DEBUG]: Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-02-03 06:13:19 [DEBUG]: https://api.cloudflare.com:443 "GET /client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100 HTTP/1.1" 200 None
+2025-02-03 06:13:19 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:19 [DEBUG]: Response Body: {"result":[{"id":"971e1c4e3c805b4ff50b0a0e55070eca","name":"dash.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.251192Z","modified_on":"2025-01-31T15:48:30.608918Z","comment_modified_on":"2025-01-27T15:10:26.051202Z"},{"id":"7ed2cc4a0365070d9c5b04d1a425c87a","name":"ghost.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-31T16:03:46.327468Z","modified_on":"2025-01-31T16:03:46.327468Z","comment_modified_on":"2025-01-31T16:03:46.327468Z"},{"id":"18015956a0e125c54863bea3446ac5cf","name":"ha.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.807809Z","modified_on":"2025-01-31T15:48:31.899195Z","comment_modified_on":"2025-01-27T15:10:56.61626Z"},{"id":"dc9a90be6060cdc2211e6e8ff862fc01","name":"plex.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:27.068921Z","modified_on":"2025-01-31T15:48:33.230025Z","comment_modified_on":"2025-01-27T15:11:00.825312Z"},{"id":"0b9c32cea604aad3fb00f023593a177a","name":"port.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:20.85014Z","modified_on":"2025-01-31T15:48:28.576165Z","comment_modified_on":"2025-01-27T15:11:06.642568Z"},{"id":"1b865c7b6d3c0187d5e413d3d72f0a21","name":"proxmox.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:21.339318Z","modified_on":"2025-01-31T15:48:28.980731Z","comment_modified_on":"2025-01-27T15:11:11.499378Z"},{"id":"d83ee9982d7c59e473fa1624d3c9c344","name":"proxy.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.38025Z","modified_on":"2025-01-31T15:48:31.455242Z","comment_modified_on":"2025-01-27T15:11:16.961763Z"},{"id":"a976213483ce84fa9f67e10e1bb38dc4","name":"qbit.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.21985Z","modified_on":"2025-01-31T15:48:32.317229Z","comment_modified_on":"2025-01-27T15:11:22.249742Z"},{"id":"2b7b9d71d609cf06aca0141cd2d1d3cf","name":"shell.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:22.244125Z","modified_on":"2025-01-31T15:48:29.381132Z","comment_modified_on":"2025-01-27T15:11:26.866827Z"},{"id":"9481bcd54b18ad394d8a92ec6240a3cd","name":"shop.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.178234Z","modified_on":"2025-01-31T15:48:29.769492Z","comment_modified_on":"2025-01-27T15:11:32.079564Z"},{"id":"003cc5361dc74fc3f77612cd9f49de42","name":"speed.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.656994Z","modified_on":"2025-01-31T15:48:32.779929Z","comment_modified_on":"2025-01-27T15:11:37.808331Z"},{"id":"65d9904f2af0d6153e810637308bcb5a","name":"ssh.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.830367Z","modified_on":"2025-01-31T15:48:30.194624Z","comment_modified_on":"2025-01-27T15:11:42.58598Z"},{"id":"d2fb2f493d1af3a90599c87d86f83bb8","name":"up.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.946049Z","modified_on":"2025-01-31T15:48:31.035746Z","comment_modified_on":"2025-01-27T15:11:48.139716Z"}],"success":true,"errors":[],"messages":[],"result_info":{"page":1,"per_page":100,"count":13,"total_count":13,"total_pages":1}}
+2025-02-03 06:13:19 [DEBUG]: Existing DNS records for hung99.com:
+2025-02-03 06:13:19 [DEBUG]:  - dash.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - ghost.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - ha.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - plex.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - port.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - proxmox.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - proxy.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - qbit.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - shell.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - shop.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - speed.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - ssh.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - up.hung99.com: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: Checking if dash.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for dash.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if ghost.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for ghost.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if ha.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for ha.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if plex.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for plex.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if port.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for port.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if proxmox.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for proxmox.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if proxy.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for proxy.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if qbit.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for qbit.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if shell.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for shell.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if shop.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for shop.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if speed.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for speed.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if ssh.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for ssh.hung99.com. IPs match.
+2025-02-03 06:13:19 [DEBUG]: Checking if up.hung99.com needs update:
+2025-02-03 06:13:19 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:19 [DEBUG]: No update needed for up.hung99.com. IPs match.
+2025-02-03 06:13:19 [INFO]: Update complete. Cleaning up.
+2025-02-03 06:13:29 [DEBUG]: Starting new HTTP connection (1): ipv4.icanhazip.com:80
+2025-02-03 06:13:29 [DEBUG]: http://ipv4.icanhazip.com:80 "GET / HTTP/1.1" 200 13
+2025-02-03 06:13:29 [DEBUG]: HTTP GET Request to http://ipv4.icanhazip.com
+2025-02-03 06:13:29 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:29 [DEBUG]: Response Body: 27.79.147.69
+2025-02-03 06:13:29 [INFO]: Current IP: 27.79.147.69
+2025-02-03 06:13:29 [INFO]: Current proxy domains:
+2025-02-03 06:13:29 [INFO]:  - ha.hung99.com
+2025-02-03 06:13:29 [INFO]:  - plex.hung99.com
+2025-02-03 06:13:29 [INFO]:  - up.hung99.com
+2025-02-03 06:13:29 [INFO]:  - proxy.hung99.com
+2025-02-03 06:13:29 [INFO]:  - speed.hung99.com
+2025-02-03 06:13:29 [INFO]:  - homelabs.vn
+2025-02-03 06:13:29 [INFO]:  - shop.hung99.com
+2025-02-03 06:13:29 [INFO]:  - ssh.hung99.com
+2025-02-03 06:13:29 [INFO]:  - port.hung99.com
+2025-02-03 06:13:29 [INFO]:  - ghost.hung99.com
+2025-02-03 06:13:29 [INFO]:  - shell.hung99.com
+2025-02-03 06:13:29 [INFO]:  - proxmox.hung99.com
+2025-02-03 06:13:29 [INFO]:  - dash.hung99.com
+2025-02-03 06:13:29 [INFO]:  - wiki.homelabs.vn
+2025-02-03 06:13:29 [INFO]:  - qbit.hung99.com
+2025-02-03 06:13:29 [INFO]: Processing domain: hung99.com (Zone: d1ef066eef4d295c27a78fcf30e3bc7c)
+2025-02-03 06:13:29 [DEBUG]: HTTP GET Request to https://api.cloudflare.com/client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100
+2025-02-03 06:13:29 [DEBUG]: Headers: {'Authorization': 'Bearer UTo_hxQzxCiLRthRbN48RaFQwV3o1C6gp8BXEXGa', 'Content-Type': 'application/json'}
+2025-02-03 06:13:29 [DEBUG]: Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-02-03 06:13:29 [DEBUG]: https://api.cloudflare.com:443 "GET /client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100 HTTP/1.1" 200 None
+2025-02-03 06:13:29 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:29 [DEBUG]: Response Body: {"result":[{"id":"971e1c4e3c805b4ff50b0a0e55070eca","name":"dash.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.251192Z","modified_on":"2025-01-31T15:48:30.608918Z","comment_modified_on":"2025-01-27T15:10:26.051202Z"},{"id":"7ed2cc4a0365070d9c5b04d1a425c87a","name":"ghost.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-31T16:03:46.327468Z","modified_on":"2025-01-31T16:03:46.327468Z","comment_modified_on":"2025-01-31T16:03:46.327468Z"},{"id":"18015956a0e125c54863bea3446ac5cf","name":"ha.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.807809Z","modified_on":"2025-01-31T15:48:31.899195Z","comment_modified_on":"2025-01-27T15:10:56.61626Z"},{"id":"dc9a90be6060cdc2211e6e8ff862fc01","name":"plex.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:27.068921Z","modified_on":"2025-01-31T15:48:33.230025Z","comment_modified_on":"2025-01-27T15:11:00.825312Z"},{"id":"0b9c32cea604aad3fb00f023593a177a","name":"port.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:20.85014Z","modified_on":"2025-01-31T15:48:28.576165Z","comment_modified_on":"2025-01-27T15:11:06.642568Z"},{"id":"1b865c7b6d3c0187d5e413d3d72f0a21","name":"proxmox.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:21.339318Z","modified_on":"2025-01-31T15:48:28.980731Z","comment_modified_on":"2025-01-27T15:11:11.499378Z"},{"id":"d83ee9982d7c59e473fa1624d3c9c344","name":"proxy.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.38025Z","modified_on":"2025-01-31T15:48:31.455242Z","comment_modified_on":"2025-01-27T15:11:16.961763Z"},{"id":"a976213483ce84fa9f67e10e1bb38dc4","name":"qbit.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.21985Z","modified_on":"2025-01-31T15:48:32.317229Z","comment_modified_on":"2025-01-27T15:11:22.249742Z"},{"id":"2b7b9d71d609cf06aca0141cd2d1d3cf","name":"shell.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:22.244125Z","modified_on":"2025-01-31T15:48:29.381132Z","comment_modified_on":"2025-01-27T15:11:26.866827Z"},{"id":"9481bcd54b18ad394d8a92ec6240a3cd","name":"shop.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.178234Z","modified_on":"2025-01-31T15:48:29.769492Z","comment_modified_on":"2025-01-27T15:11:32.079564Z"},{"id":"003cc5361dc74fc3f77612cd9f49de42","name":"speed.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.656994Z","modified_on":"2025-01-31T15:48:32.779929Z","comment_modified_on":"2025-01-27T15:11:37.808331Z"},{"id":"65d9904f2af0d6153e810637308bcb5a","name":"ssh.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.830367Z","modified_on":"2025-01-31T15:48:30.194624Z","comment_modified_on":"2025-01-27T15:11:42.58598Z"},{"id":"d2fb2f493d1af3a90599c87d86f83bb8","name":"up.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.946049Z","modified_on":"2025-01-31T15:48:31.035746Z","comment_modified_on":"2025-01-27T15:11:48.139716Z"}],"success":true,"errors":[],"messages":[],"result_info":{"page":1,"per_page":100,"count":13,"total_count":13,"total_pages":1}}
+2025-02-03 06:13:29 [DEBUG]: Existing DNS records for hung99.com:
+2025-02-03 06:13:29 [DEBUG]:  - dash.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - ghost.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - ha.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - plex.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - port.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - proxmox.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - proxy.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - qbit.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - shell.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - shop.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - speed.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - ssh.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - up.hung99.com: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: Checking if dash.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for dash.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if ghost.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for ghost.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if ha.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for ha.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if plex.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for plex.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if port.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for port.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if proxmox.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for proxmox.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if proxy.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for proxy.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if qbit.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for qbit.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if shell.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for shell.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if shop.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for shop.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if speed.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for speed.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if ssh.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for ssh.hung99.com. IPs match.
+2025-02-03 06:13:29 [DEBUG]: Checking if up.hung99.com needs update:
+2025-02-03 06:13:29 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:29 [DEBUG]: No update needed for up.hung99.com. IPs match.
+2025-02-03 06:13:29 [INFO]: Update complete. Cleaning up.
+2025-02-03 06:13:39 [DEBUG]: Starting new HTTP connection (1): ipv4.icanhazip.com:80
+2025-02-03 06:13:39 [DEBUG]: http://ipv4.icanhazip.com:80 "GET / HTTP/1.1" 200 13
+2025-02-03 06:13:39 [DEBUG]: HTTP GET Request to http://ipv4.icanhazip.com
+2025-02-03 06:13:39 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:39 [DEBUG]: Response Body: 27.79.147.69
+2025-02-03 06:13:39 [INFO]: Current IP: 27.79.147.69
+2025-02-03 06:13:39 [INFO]: Current proxy domains:
+2025-02-03 06:13:39 [INFO]:  - proxy.hung99.com
+2025-02-03 06:13:39 [INFO]:  - speed.hung99.com
+2025-02-03 06:13:39 [INFO]:  - ghost.hung99.com
+2025-02-03 06:13:39 [INFO]:  - port.hung99.com
+2025-02-03 06:13:39 [INFO]:  - proxmox.hung99.com
+2025-02-03 06:13:39 [INFO]:  - plex.hung99.com
+2025-02-03 06:13:39 [INFO]:  - shell.hung99.com
+2025-02-03 06:13:39 [INFO]:  - ha.hung99.com
+2025-02-03 06:13:39 [INFO]:  - up.hung99.com
+2025-02-03 06:13:39 [INFO]:  - wiki.homelabs.vn
+2025-02-03 06:13:39 [INFO]:  - homelabs.vn
+2025-02-03 06:13:39 [INFO]:  - ssh.hung99.com
+2025-02-03 06:13:39 [INFO]:  - dash.hung99.com
+2025-02-03 06:13:39 [INFO]:  - shop.hung99.com
+2025-02-03 06:13:39 [INFO]:  - qbit.hung99.com
+2025-02-03 06:13:39 [INFO]: Processing domain: hung99.com (Zone: d1ef066eef4d295c27a78fcf30e3bc7c)
+2025-02-03 06:13:39 [DEBUG]: HTTP GET Request to https://api.cloudflare.com/client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100
+2025-02-03 06:13:39 [DEBUG]: Headers: {'Authorization': 'Bearer UTo_hxQzxCiLRthRbN48RaFQwV3o1C6gp8BXEXGa', 'Content-Type': 'application/json'}
+2025-02-03 06:13:39 [DEBUG]: Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-02-03 06:13:40 [DEBUG]: https://api.cloudflare.com:443 "GET /client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100 HTTP/1.1" 200 None
+2025-02-03 06:13:40 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:40 [DEBUG]: Response Body: {"result":[{"id":"971e1c4e3c805b4ff50b0a0e55070eca","name":"dash.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.251192Z","modified_on":"2025-01-31T15:48:30.608918Z","comment_modified_on":"2025-01-27T15:10:26.051202Z"},{"id":"7ed2cc4a0365070d9c5b04d1a425c87a","name":"ghost.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-31T16:03:46.327468Z","modified_on":"2025-01-31T16:03:46.327468Z","comment_modified_on":"2025-01-31T16:03:46.327468Z"},{"id":"18015956a0e125c54863bea3446ac5cf","name":"ha.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.807809Z","modified_on":"2025-01-31T15:48:31.899195Z","comment_modified_on":"2025-01-27T15:10:56.61626Z"},{"id":"dc9a90be6060cdc2211e6e8ff862fc01","name":"plex.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:27.068921Z","modified_on":"2025-01-31T15:48:33.230025Z","comment_modified_on":"2025-01-27T15:11:00.825312Z"},{"id":"0b9c32cea604aad3fb00f023593a177a","name":"port.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:20.85014Z","modified_on":"2025-01-31T15:48:28.576165Z","comment_modified_on":"2025-01-27T15:11:06.642568Z"},{"id":"1b865c7b6d3c0187d5e413d3d72f0a21","name":"proxmox.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:21.339318Z","modified_on":"2025-01-31T15:48:28.980731Z","comment_modified_on":"2025-01-27T15:11:11.499378Z"},{"id":"d83ee9982d7c59e473fa1624d3c9c344","name":"proxy.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.38025Z","modified_on":"2025-01-31T15:48:31.455242Z","comment_modified_on":"2025-01-27T15:11:16.961763Z"},{"id":"a976213483ce84fa9f67e10e1bb38dc4","name":"qbit.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.21985Z","modified_on":"2025-01-31T15:48:32.317229Z","comment_modified_on":"2025-01-27T15:11:22.249742Z"},{"id":"2b7b9d71d609cf06aca0141cd2d1d3cf","name":"shell.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:22.244125Z","modified_on":"2025-01-31T15:48:29.381132Z","comment_modified_on":"2025-01-27T15:11:26.866827Z"},{"id":"9481bcd54b18ad394d8a92ec6240a3cd","name":"shop.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.178234Z","modified_on":"2025-01-31T15:48:29.769492Z","comment_modified_on":"2025-01-27T15:11:32.079564Z"},{"id":"003cc5361dc74fc3f77612cd9f49de42","name":"speed.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.656994Z","modified_on":"2025-01-31T15:48:32.779929Z","comment_modified_on":"2025-01-27T15:11:37.808331Z"},{"id":"65d9904f2af0d6153e810637308bcb5a","name":"ssh.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.830367Z","modified_on":"2025-01-31T15:48:30.194624Z","comment_modified_on":"2025-01-27T15:11:42.58598Z"},{"id":"d2fb2f493d1af3a90599c87d86f83bb8","name":"up.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.946049Z","modified_on":"2025-01-31T15:48:31.035746Z","comment_modified_on":"2025-01-27T15:11:48.139716Z"}],"success":true,"errors":[],"messages":[],"result_info":{"page":1,"per_page":100,"count":13,"total_count":13,"total_pages":1}}
+2025-02-03 06:13:40 [DEBUG]: Existing DNS records for hung99.com:
+2025-02-03 06:13:40 [DEBUG]:  - dash.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - ghost.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - ha.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - plex.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - port.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - proxmox.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - proxy.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - qbit.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - shell.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - shop.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - speed.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - ssh.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - up.hung99.com: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: Checking if dash.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for dash.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if ghost.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for ghost.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if ha.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for ha.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if plex.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for plex.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if port.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for port.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if proxmox.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for proxmox.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if proxy.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for proxy.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if qbit.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for qbit.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if shell.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for shell.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if shop.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for shop.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if speed.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for speed.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if ssh.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for ssh.hung99.com. IPs match.
+2025-02-03 06:13:40 [DEBUG]: Checking if up.hung99.com needs update:
+2025-02-03 06:13:40 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:40 [DEBUG]: No update needed for up.hung99.com. IPs match.
+2025-02-03 06:13:40 [INFO]: Update complete. Cleaning up.
+2025-02-03 06:13:50 [DEBUG]: Starting new HTTP connection (1): ipv4.icanhazip.com:80
+2025-02-03 06:13:50 [DEBUG]: http://ipv4.icanhazip.com:80 "GET / HTTP/1.1" 200 13
+2025-02-03 06:13:50 [DEBUG]: HTTP GET Request to http://ipv4.icanhazip.com
+2025-02-03 06:13:50 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:50 [DEBUG]: Response Body: 27.79.147.69
+2025-02-03 06:13:50 [INFO]: Current IP: 27.79.147.69
+2025-02-03 06:13:50 [INFO]: Current proxy domains:
+2025-02-03 06:13:50 [INFO]:  - dash.hung99.com
+2025-02-03 06:13:50 [INFO]:  - proxmox.hung99.com
+2025-02-03 06:13:50 [INFO]:  - wiki.homelabs.vn
+2025-02-03 06:13:50 [INFO]:  - speed.hung99.com
+2025-02-03 06:13:50 [INFO]:  - homelabs.vn
+2025-02-03 06:13:50 [INFO]:  - proxy.hung99.com
+2025-02-03 06:13:50 [INFO]:  - qbit.hung99.com
+2025-02-03 06:13:50 [INFO]:  - ghost.hung99.com
+2025-02-03 06:13:50 [INFO]:  - ssh.hung99.com
+2025-02-03 06:13:50 [INFO]:  - shell.hung99.com
+2025-02-03 06:13:50 [INFO]:  - shop.hung99.com
+2025-02-03 06:13:50 [INFO]:  - plex.hung99.com
+2025-02-03 06:13:50 [INFO]:  - port.hung99.com
+2025-02-03 06:13:50 [INFO]:  - ha.hung99.com
+2025-02-03 06:13:50 [INFO]:  - up.hung99.com
+2025-02-03 06:13:50 [INFO]: Processing domain: hung99.com (Zone: d1ef066eef4d295c27a78fcf30e3bc7c)
+2025-02-03 06:13:50 [DEBUG]: HTTP GET Request to https://api.cloudflare.com/client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100
+2025-02-03 06:13:50 [DEBUG]: Headers: {'Authorization': 'Bearer UTo_hxQzxCiLRthRbN48RaFQwV3o1C6gp8BXEXGa', 'Content-Type': 'application/json'}
+2025-02-03 06:13:50 [DEBUG]: Starting new HTTPS connection (1): api.cloudflare.com:443
+2025-02-03 06:13:51 [DEBUG]: https://api.cloudflare.com:443 "GET /client/v4/zones/d1ef066eef4d295c27a78fcf30e3bc7c/dns_records?type=A&per_page=100 HTTP/1.1" 200 None
+2025-02-03 06:13:51 [DEBUG]: Response Status Code: 200
+2025-02-03 06:13:51 [DEBUG]: Response Body: {"result":[{"id":"971e1c4e3c805b4ff50b0a0e55070eca","name":"dash.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.251192Z","modified_on":"2025-01-31T15:48:30.608918Z","comment_modified_on":"2025-01-27T15:10:26.051202Z"},{"id":"7ed2cc4a0365070d9c5b04d1a425c87a","name":"ghost.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-31T16:03:46.327468Z","modified_on":"2025-01-31T16:03:46.327468Z","comment_modified_on":"2025-01-31T16:03:46.327468Z"},{"id":"18015956a0e125c54863bea3446ac5cf","name":"ha.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.807809Z","modified_on":"2025-01-31T15:48:31.899195Z","comment_modified_on":"2025-01-27T15:10:56.61626Z"},{"id":"dc9a90be6060cdc2211e6e8ff862fc01","name":"plex.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:27.068921Z","modified_on":"2025-01-31T15:48:33.230025Z","comment_modified_on":"2025-01-27T15:11:00.825312Z"},{"id":"0b9c32cea604aad3fb00f023593a177a","name":"port.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:20.85014Z","modified_on":"2025-01-31T15:48:28.576165Z","comment_modified_on":"2025-01-27T15:11:06.642568Z"},{"id":"1b865c7b6d3c0187d5e413d3d72f0a21","name":"proxmox.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:21.339318Z","modified_on":"2025-01-31T15:48:28.980731Z","comment_modified_on":"2025-01-27T15:11:11.499378Z"},{"id":"d83ee9982d7c59e473fa1624d3c9c344","name":"proxy.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:25.38025Z","modified_on":"2025-01-31T15:48:31.455242Z","comment_modified_on":"2025-01-27T15:11:16.961763Z"},{"id":"a976213483ce84fa9f67e10e1bb38dc4","name":"qbit.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.21985Z","modified_on":"2025-01-31T15:48:32.317229Z","comment_modified_on":"2025-01-27T15:11:22.249742Z"},{"id":"2b7b9d71d609cf06aca0141cd2d1d3cf","name":"shell.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:22.244125Z","modified_on":"2025-01-31T15:48:29.381132Z","comment_modified_on":"2025-01-27T15:11:26.866827Z"},{"id":"9481bcd54b18ad394d8a92ec6240a3cd","name":"shop.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.178234Z","modified_on":"2025-01-31T15:48:29.769492Z","comment_modified_on":"2025-01-27T15:11:32.079564Z"},{"id":"003cc5361dc74fc3f77612cd9f49de42","name":"speed.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:26.656994Z","modified_on":"2025-01-31T15:48:32.779929Z","comment_modified_on":"2025-01-27T15:11:37.808331Z"},{"id":"65d9904f2af0d6153e810637308bcb5a","name":"ssh.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:23.830367Z","modified_on":"2025-01-31T15:48:30.194624Z","comment_modified_on":"2025-01-27T15:11:42.58598Z"},{"id":"d2fb2f493d1af3a90599c87d86f83bb8","name":"up.hung99.com","type":"A","content":"27.79.147.69","proxiable":true,"proxied":false,"ttl":1,"settings":{},"meta":{"auto_added":false,"managed_by_apps":false,"managed_by_argo_tunnel":false},"comment":"Managed by DDNS script","tags":[],"created_on":"2025-01-26T05:24:24.946049Z","modified_on":"2025-01-31T15:48:31.035746Z","comment_modified_on":"2025-01-27T15:11:48.139716Z"}],"success":true,"errors":[],"messages":[],"result_info":{"page":1,"per_page":100,"count":13,"total_count":13,"total_pages":1}}
+2025-02-03 06:13:51 [DEBUG]: Existing DNS records for hung99.com:
+2025-02-03 06:13:51 [DEBUG]:  - dash.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - ghost.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - ha.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - plex.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - port.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - proxmox.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - proxy.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - qbit.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - shell.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - shop.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - speed.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - ssh.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - up.hung99.com: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: Checking if dash.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for dash.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if ghost.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for ghost.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if ha.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for ha.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if plex.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for plex.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if port.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for port.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if proxmox.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for proxmox.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if proxy.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for proxy.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if qbit.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for qbit.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if shell.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for shell.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if shop.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for shop.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if speed.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for speed.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if ssh.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for ssh.hung99.com. IPs match.
+2025-02-03 06:13:51 [DEBUG]: Checking if up.hung99.com needs update:
+2025-02-03 06:13:51 [DEBUG]:  - Current IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]:  - DNS Record IP: 27.79.147.69
+2025-02-03 06:13:51 [DEBUG]: No update needed for up.hung99.com. IPs match.
+2025-02-03 06:13:51 [INFO]: Update complete. Cleaning up.
