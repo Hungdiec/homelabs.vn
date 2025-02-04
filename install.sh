@@ -8,7 +8,7 @@ REPO_ROOT="$(pwd)"
 # Define service user and group (adjust as needed)
 SERVICE_USER="$(whoami)"
 SERVICE_GROUP="$(id -gn)"
-TEMPLATE_FILE="$(pwd)/systemd/ddns.service.template"
+TEMPLATE_FILE="$(dirname "$0")/systemd/ddns.service.template"
 
 if [ ! -f "$TEMPLATE_FILE" ]; then
     echo "Template file not found: $TEMPLATE_FILE"
