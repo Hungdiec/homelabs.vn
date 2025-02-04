@@ -50,22 +50,17 @@ fi
 
 
 # === Step 2: Set Up Virtual Environment and Install Dependencies ===
+# === Step 2: Set Up Virtual Environment and Install Dependencies ===
 echo "Creating virtual environment..."
-sudo apt install python3.12-venv
 python3 -m venv venv
-source venv/bin/activate
-# Check if pip is available; if not, install it
-if ! command -v pip &>/dev/null; then
-    echo "pip is not found in the virtual environment. Installing pip..."
-    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-    python get-pip.py
-fi
+source venv/bin/activate  # Ensure the virtual environment is activated
 
-echo "Upgrading pip..."
+# Upgrade pip within the virtual environment
 pip install --upgrade pip
 
 echo "Installing Python dependencies..."
 pip install -r requirements.txt
+
 
 
 # === Step 3: Run the CLI Configuration Tool ===
