@@ -54,13 +54,18 @@ echo "Creating virtual environment..."
 sudo apt install python3.12-venv
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
-
+# Check if pip is available; if not, install it
+if ! command -v pip &>/dev/null; then
+    echo "pip is not found in the virtual environment. Installing pip..."
+    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    python get-pip.py
+fi
 
 echo "Upgrading pip..."
 pip install --upgrade pip
 
 echo "Installing Python dependencies..."
+pip install -r requirements.txt
 
 
 # === Step 3: Run the CLI Configuration Tool ===
