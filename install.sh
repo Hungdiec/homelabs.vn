@@ -46,15 +46,18 @@ if ! python3 -m venv --help &>/dev/null; then
     echo "Python venv module is missing. Installing python3-venv..."
     apt-get update && apt-get install -y python3-venv || { echo "Installation failed. Please install python3-venv manually."; exit 1; }
 fi
-
-
-
+apt-get install -y python3
+apt-get install -y python3-pip
+apt-get install -y python3-venv
 # === Step 2: Set Up Virtual Environment and Install Dependencies ===
 # === Step 2: Set Up Virtual Environment and Install Dependencies ===
 echo "Creating virtual environment..."
 python3 -m venv venv
 source venv/bin/activate  # Ensure the virtual environment is activated
+rm -rf venv
 
+python3 -m venv venv
+source venv/bin/activate
 # Upgrade pip within the virtual environment
 pip install --upgrade pip
 
